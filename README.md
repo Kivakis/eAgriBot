@@ -11,3 +11,11 @@ You can select from 5 models in the first section of the .m script:
 Two soil types available:
 1. Sandy loam
 2. Clayey loam
+
+Efficiency map used is not included due to copyright. You may add your own efficiency map. It requires three arrays:
+1. effmap (n x m)
+-This matrix contains the efficiency values
+2. T_effmap (1 x m)
+-This vector contains the torque values used by the efficiency map
+3. w_effmap (1 x n)
+-This vector contains the rotational speed values (rad/s) used by the efficiency map
