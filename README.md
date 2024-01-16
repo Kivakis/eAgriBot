@@ -14,8 +14,8 @@ Two soil types available:
 
 Efficiency map used is not included due to copyright. You may add your own efficiency map. It requires three arrays:
 1. effmap (n x m)
--This matrix contains the efficiency values
+-This matrix contains the efficiency values (within the range 0.0-1.0)
 2. T_effmap (1 x m)
--This vector contains the torque values used by the efficiency map
+-This vector contains the torque values (Nm) used by the efficiency map
 3. w_effmap (1 x n)
 -This vector contains the rotational speed values (rad/s) used by the efficiency map
