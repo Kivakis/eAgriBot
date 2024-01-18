@@ -12,10 +12,4 @@ Two soil types available:
 1. Sandy loam
 2. Clayey loam
 
-Efficiency map used is not included due to copyright. You may add your own efficiency map. It requires three arrays:
-1. effmap (n x m)
--This matrix contains the efficiency values (within the range 0.0-1.0)
-2. T_effmap (1 x m)
--This vector contains the torque values (Nm) used by the efficiency map
-3. w_effmap (1 x n)
--This vector contains the rotational speed values (rad/s) used by the efficiency map
+The included efficiency map is a generic map for an electric motor. The original map used in the journal article is not included due to copyright.
